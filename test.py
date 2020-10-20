@@ -4,5 +4,7 @@ from mathgenerator import mathgen
 
 # print(mathgen.addition())
 # print(mathgen.genById(79))
-mathgen.dieseseProbability()
+problem, answer= mathgen.diseaseProbability()
+print(problem)
+print(answer)
 
