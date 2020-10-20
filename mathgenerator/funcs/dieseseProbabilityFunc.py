@@ -18,8 +18,8 @@ def diseaseProbabilityFunc():
         return P_disease_plus
 
     problem= "Someone tested positive for a nasty disease which only {0:.2f}% of population have. " \
-    "Test sensitivity(true positive) is equal to SN= {1:.2f}% whereas test specificity(true negative) SP= {2:.2f}%." \
-    "What is the probability that this guy really have that diesese?".format(P_disease, true_positive, true_negative )
+    "Test sensitivity(true positive) is equal to SN= {1:.2f}% whereas test specificity(true negative) SP= {2:.2f}%. " \
+    "What is the probability that this guy really have that disease?".format(P_disease, true_positive, true_negative )
     
     # answer= P_disease_plus= probability of having diesese given positive test result
     answer= format(100*BayesFormula(P_disease, true_positive, true_negative), '.2f')
