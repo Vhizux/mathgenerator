@@ -4,3 +4,5 @@ from mathgenerator import mathgen
 
 # print(mathgen.addition())
 # print(mathgen.genById(79))
+mathgen.dieseseProbability()
+
